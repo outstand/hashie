@@ -6,6 +6,47 @@ scheme are considered to be bugs.
 
 [semver]: http://semver.org/spec/v2.0.0.html
 
+## [Unreleased][unreleased]
+
+[unreleased]: https://github.com/intridea/hashie/compare/v3.6.0...master
+
+### Added
+
+* [#323](https://github.com/intridea/hashie/pull/323): Added `Hashie::Extensions::Mash::DefineAccessors` - [@marshall-lee](https://github.com/marshall-lee).
+* [#474](https://github.com/intridea/hashie/pull/474): Expose `YAML#safe_load` options in `Mash#load` - [@riouruma](https://github.com/riouruma), [@dblock](https://github.com/dblock).
+* [#478](https://github.com/intridea/hashie/pull/478): Added optional array parameter to `Hashie::Mash.disable_warnings` - [@bobbymcwho](https://github.com/bobbymcwho).
+* [#481](https://github.com/intridea/hashie/pull/481): Ruby 2.6 - Support Hash#merge and #merge! called with multiple Hashes/Mashes - [@bobbymcwho](https://github.com/bobbymcwho).
+* Your contribution here.
+
+### Changed
+
+* [#481](https://github.com/intridea/hashie/pull/481): Implement non-destructive standard Hash methods - [@bobbymcwho](https://github.com/bobbymcwho).
+* Your contribution here.
+
+### Deprecated
+
+* Your contribution here.
+
+### Removed
+
+* Your contribution here.
+
+### Fixed
+
+* [#459](https://github.com/intridea/hashie/pull/459): Fixed a regression in `Mash.load` that disallowed aliases - [@arekt](https://github.com/arekt) and [@michaelherold](https://github.com/michaelherold).
+* [#465](https://github.com/intridea/hashie/pull/465): Fixed `deep_update` to call any readers when a key exists - [@laertispappas](https://github.com/laertispappas).
+* Your contribution here.
+
+### Security
+
+* Your contribution here.
+
+### Miscellaneous
+
+* [#465](https://github.com/intridea/hashie/pull/465): Clean up our RuboCop configuration and fix the outstanding line length violations. This involved some minor refactoring on `Hashie::Extensions::Coercion`, `Hashie::Extensions::Dash::IndifferentAccess`, `Hashie::Extensions::DeepLocate`, `Hashie::Extensions::Mash::SafeAssignment`, and `Hashie::Hash`, but none that were detectable via the test suite - [@michaelherold](https://github.com/michaelherold).
+* [#482](https://github.com/intridea/hashie/pull/482): Update Travis configs to make jruby builds run on trusty dist. - [@BobbyMcWho](https://github.com/BobbyMcWho).
+* Your contribution here.
+
 ## [3.6.0] - 2018-08-13
 
 [3.6.0]: https://github.com/intridea/hashie/compare/v3.5.7...v3.6.0
